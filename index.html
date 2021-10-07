@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href ="styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header id = "principal">
+        <h1 id ="titulo">  
+            Titulo
+        </h1> 
+        <br>
+        <button id ="botonPrincipal">Navegación</button>    
+        <div id = "lista">
+            <ul id ="selectores">
+                <li class="liP">Elemento</li>
+                <li class="liP">Elemento</li>
+                <li class="liP">Elemento</li>
+                <li class="liP">Elemento</li>
+            </ul>
+        
+        </div>
+    </header>
+    
+    <section id ="seccion">
+        
+    </section>
+    <div>
+        <div id="form">
+            Nombre : <input type="text" id="nm" value="Producto" name="nombre">
+            Precio : <input type="text" id ="pr" value="Numero" name= "numero">
+            Imagen : <input type="radio" id="im" value="url('articulos/imagen1.jpg')">
+            <button id ="botonP"> Agregar</button>
+        </div>
+    </div>
+    <template class ="articulo">
+        <div class ="contenedor">
+            <div class ="imagen"></div>
+            <p class ="nombre"></p>
+            <p class="precio"></p>
+        </div>
+    </template>
+</body>
+<script src="java.js"></script>
+</html>

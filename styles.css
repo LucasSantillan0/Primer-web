@@ -1,0 +1,123 @@
+
+html{
+    background-image: url("fondo.jpg");
+    background-size: 100rem ;
+}
+body {
+    
+    width: 65%;
+    margin: 0 auto;
+    
+}
+header {
+    text-size-adjust: 1.5rem ;
+    text-align: center;
+    background-color: rgb(146, 93, 55);
+    border-radius: .35rem;
+    padding: 1rem 0 ;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(109, 109, 109) -1rem .2rem 3rem;
+}
+
+#lista{
+    height: auto;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+    overflow: hidden;
+    height: 0px;
+    margin: 0px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.61);
+    height: fit-content;
+    padding: 2rem 0 ;
+}
+
+ul {
+    visibility: visible;
+    text-align: center;
+    padding: 1rem ;
+    list-style-type: none;
+    border-radius: .15rem;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    overflow: hidden;
+}
+li {
+    display: inline;
+    background-color: rgba(211, 211, 211, 0.158);
+    margin: 0 3rem;
+    border-radius: .15rem;
+    padding: .25rem;
+    overflow: hidden;
+    
+
+}
+li:hover{
+background-color:goldenrod;
+cursor: pointer;
+}
+#lista{
+    background-color: rgb(175, 125, 88);
+}
+button{
+    position: relative;
+    top:-.5rem;
+}
+#seccion{
+    
+    justify-content: center;
+    
+}
+.contenedor{
+    display: inline-block;
+    background-color: rgba(241, 241, 202, 0.712);
+    height: 340px;
+    width: 25%;
+    padding: 2.0167%;
+    margin: 2%;
+    border-radius: 1rem;
+    
+}
+.imagen{
+    background-color: rgb(255, 255, 255);
+    background-size: 200px ;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80%;
+    margin: 10% 10% 0 10% ;
+    border-radius: .2rem;
+    
+}
+.nombre, .precio{
+    
+    height:fit-content ;
+    width: fit-content;
+    padding: 4px 8px;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    
+    
+}
+button{
+    border-radius: .5rem;
+    background-color: snow;
+}
+#botonP{
+    
+    position: relative;
+    top: -.05rem;
+    height: 2rem;
+    width: 4rem;
+}
+#form{
+    background-color: rgba(188, 143, 143, 0.171);
+}
+button:hover{
+    background-color: rgb(48, 46, 46);
+    cursor: pointer;
+}
